@@ -281,4 +281,6 @@ inspect eval src/nullprime/llm_eval.py@nullprime -T condition=plain --model <pro
 The whole study cost about $85 in API calls. If you build systems people trust, it's worth an afternoon to find out
 whether yours knows when it doesn't know.
 
+To cite NullPrime: Miedlar, B. (2026). *NullPrime* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23747887
+
 — Brian Miedlar
