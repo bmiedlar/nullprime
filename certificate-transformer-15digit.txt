@@ -1,0 +1,6 @@
+Digit transformer · [1e+14, 1e+15) · filter < 10000 · 3000+3000 per split · 5 seeds · 60 epochs
+python 3.13.11 · torch 2.14.1+cpu
+
+null (filtered)          train 0.831   test 0.501 ± 0.010   (seeds 0.493-0.513)
+contrast (unfiltered)    train 0.744   test 0.575 ± 0.010   (seeds 0.547-0.608)
+chance = 0.500

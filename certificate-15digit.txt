@@ -1,0 +1,18 @@
+NullPrime certificate · [1e+14, 1e+15) · filter < 10000 · 3000+3000 per split · 5 seeds
+python 3.13.11 · numpy 2.5.4 · scikit-learn 1.9.1
+
+null (filtered)
+   logistic regression   train 0.544   test 0.505 ± 0.010   (seeds 0.488–0.526)
+   random forest (400)   train 1.000   test 0.504 ± 0.010   (seeds 0.495–0.518)
+     gradient boosting   train 0.996   test 0.508 ± 0.010   (seeds 0.488–0.519)
+        k-nearest (15)   train 0.604   test 0.501 ± 0.010   (seeds 0.494–0.509)
+         MLP (256,128)   train 1.000   test 0.494 ± 0.010   (seeds 0.488–0.504)
+
+contrast (unfiltered)
+   logistic regression   train 0.697   test 0.688 ± 0.010   (seeds 0.678–0.710)
+   random forest (400)   train 1.000   test 0.913 ± 0.006   (seeds 0.896–0.928)
+     gradient boosting   train 0.995   test 0.908 ± 0.006   (seeds 0.897–0.920)
+        k-nearest (15)   train 0.677   test 0.613 ± 0.010   (seeds 0.602–0.631)
+         MLP (256,128)   train 1.000   test 0.683 ± 0.010   (seeds 0.673–0.696)
+
+chance = 0.500. Expected: null ≈ chance with train ≫ test (memorization); contrast well above chance.
