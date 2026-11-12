@@ -9,3 +9,4 @@ google/gemini-3.8-flash:      {input: 0.83, output: 4.12, input_cache_write: 0.8
 google/gemini-4-argon:        {input: 2.00, output: 10.00, input_cache_write: 2.00, input_cache_read: 2.00}
 openrouter/deepseek/deepseek-v4-pro: {input: 0.21, output: 0.42, input_cache_write: 0.21, input_cache_read: 0.21}
 openrouter/openai/gpt-oss-120b: {input: 0.15, output: 0.60, input_cache_write: 0.15, input_cache_read: 0.15}
+grok/grok-4.7:                {input: 2.00, output: 6.00, input_cache_write: 2.00, input_cache_read: 2.00}
